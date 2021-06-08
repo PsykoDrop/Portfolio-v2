@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "Souvenir";
+    src: url(../assets/fonts/Souvenir_Greek_Demi_BT.ttf);
+}
+
+/*reperes
+.row {
+    border: 1px solid #7451EB;
+    padding: 3px;
+}
+
+[class^="col"] {
+    padding: 1rem;
+    border: 2px solid #3FA5DB;
+}
+*/
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: "Souvenir";
+}
+
+h2 {
+    font-family: "Souvenir";
+}
+
+h3 {
+    font-family: "Souvenir";
+}
+
+h4 {
+    font-family: "Souvenir";
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+/*header*/
+
+.logo {
+    width: 30vh;
+
+}
+
+nav {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 5vh;
+}
+
+
+#cover {
+    height: 100%;
+    border-radius: 10px;
+}
+
+#cover:hover {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#illuOne {
+    height: 50%;
+    margin-top: 20%;
+}
+
+/*aPropos*/
+
+.about {
+    margin-top: 10%;
+}
+
+#moi {
+    margin-top: 10%;
+}
+
+.aPropos {
+    margin-top: 10%;
+    font-size: 25px;
+}
+
+/*compétences*/
+
+
+#gradient {
+    margin-top: 10%;
+}
+
+.skills {
+    background: linear-gradient(#B1F2FA, #B7FA9C);
+}
+
+.strass {
+    width: 5vh;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 10px;
+    border: 1px solid #ffffff2e;
+    width: 80%;
+    height: 60%;
+}
+
+#bouton {
+    width: 40%;
+
+
+}
+
+ul {
+    list-style: none;
+}
+
+/*carroussel*/
+
+.titreReal {
+    padding-top: 10%;
+    text-align: center;
+}
+
+#boutonID {
+    margin-top: 10%;
+}
+
+/*form*/
+.form {
+    margin-top: 10%;
+}
+
+/*footer*/
+footer {
+    padding-top: 5%;
+    margin-top: 5%;
+    background: linear-gradient(#B1F2FA, #B7FA9C);
+}
+
+.socials {
+    width: 5vh;
+}
+
+#logoPlanete {
+    width: 15vh;
+}
