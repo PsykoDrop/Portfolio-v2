@@ -148,12 +148,12 @@ ul {
 /*form*/
 .form {
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 /*footer*/
 footer {
     padding-top: 5%;
-    margin-top: 5%;
     background: linear-gradient(#B1F2FA, #B7FA9C);
 }
 
@@ -164,3 +164,39 @@ footer {
 #logoPlanete {
     width: 15vh;
 }
+
+/*identité visuelle*/
+
+.main {background-color: #EEE3EB;}
+
+.title {text-align: center;}
+
+#croquis {width: 50%;
+        margin-left: 10%;}
+
+#illus {width: 90%;}
+
+#palette {width :50%;}
+
+.palette {text-align: center;
+            margin-top: 10%;}
+
+.illustrations {margin-top: 10%;}
+
+#cloud {margin-left: 50%;}
+
+#pinterest {width: 100%;
+}
+
+#inspo {width: 100%;
+}
+
+.plancheLogo {width: 80%;}
+
+#mockup {width: 60%;
+        margin-left: 20%;
+}
+
+#boutonPDF {margin-bottom: 10%;
+                margin-top: 10%;}
+
