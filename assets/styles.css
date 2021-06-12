@@ -336,6 +336,8 @@ footer {
     .illustrations {
         flex-direction: column;
         margin-left: 0;
+        width: 50%;
     }
     h1 {font-size: 100px;}
+    #boho {width: 100%;}
 }
