@@ -3,7 +3,47 @@
     src: url(../assets/fonts/Souvenir_Greek_Demi_BT.ttf);
 }
 
-/*reperes
+
+/*codePen*/
+  #textField {display: none;}
+  
+  input{
+    border:1px solid #fff;
+    background:#fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    padding:0.5rem 1.2rem;
+    border-radius:20px;
+    font-size:inherit;
+  }
+  
+  h1{
+    font-family: "Souvenir";
+    font-size: 170px;
+    color: black;
+  }
+  
+  .wavy {
+    animation-name: wavy;
+    animation-duration: 1.3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  @keyframes wavy {
+    0% {
+      top: 0px;
+    }
+    50% {
+      top: -15px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+
+  /*reperes
 .row {
     border: 1px solid #7451EB;
     padding: 3px;
@@ -18,13 +58,12 @@
 body {
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0;
 }
 
-h1 {
-    font-family: "Souvenir";
-}
 
-h2 {
+h2 {font-size: 50px;
     font-family: "Souvenir";
 }
 
@@ -40,50 +79,36 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
+a { font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: black;
 }
 
-a:link {
+a:link { font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: black;
     font-weight: bolder;
 }
 
-/*header*/
+.nav-item:hover {border-top: black solid 2px;
+                }
 
-.logo {
+/*nav*/
+
+#logo {
     width: 30vh;
 
 }
 
-nav {
-    position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    margin-top: 5vh;
-    z-index: 2000;
-}
+nav {font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;}
 
-
-#cover {
-    height: 100%;
-    border-radius: 10px;
-}
-
-#cover:hover {
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    -webkit-backdrop-filter: blur(7px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-}
-
-#illuOne {
-    height: 50%;
-    margin-top: 20%;
-}
+.jumbotron {background-image: url(../assets/png/illu.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size:contain;}
 
 /*aPropos*/
 
@@ -105,6 +130,7 @@ nav {
 
 #gradient {
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .skills {
@@ -168,36 +194,58 @@ footer {
 
 /*identité visuelle*/
 
-.main {background-color: #EEE3EB;}
-
-.title {text-align: center;}
-
-#croquis {width: 50%;
-        margin-left: 10%;}
-
-#illus {width: 90%;}
-
-#palette {width :50%;}
-
-.palette {text-align: center;
-            margin-top: 10%;}
-
-.illustrations {margin-top: 10%;}
-
-#cloud {margin-left: 50%;}
-
-#pinterest {width: 100%;
+.main {
+    background-color: #EEE3EB;
 }
 
-#inspo {width: 100%;
+.title {
+    text-align: center;
 }
 
-.plancheLogo {width: 80%;}
-
-#mockup {width: 60%;
-        margin-left: 20%;
+#croquis {
+    width: 50%;
+    margin-left: 10%;
 }
 
-#boutonPDF {margin-bottom: 10%;
-                margin-top: 10%;}
+#illus {
+    width: 90%;
+}
 
+#palette {
+    width: 50%;
+}
+
+.palette {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.illustrations {
+    margin-top: 10%;
+}
+
+#cloud {
+    margin-left: 50%;
+}
+
+#pinterest {
+    width: 100%;
+}
+
+#inspo {
+    width: 100%;
+}
+
+.plancheLogo {
+    width: 80%;
+}
+
+#mockup {
+    width: 60%;
+    margin-left: 20%;
+}
+
+#boutonPDF {
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
