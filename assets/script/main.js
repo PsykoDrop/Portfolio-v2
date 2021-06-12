@@ -26,4 +26,6 @@ function updateText(text){
     
     updateText("Bienvenue sur mon Portfolio");
 
+    /*fadeIn*/
+
 

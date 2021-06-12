@@ -4,6 +4,19 @@
 }
 
 
+    /*fadeIn*/
+.fadeIn {
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {opacity: 1;}
+    
+}
+
 /*jumbotron*/
   #textField {display: none;}
   
@@ -72,6 +85,10 @@ h3 {
 }
 
 h4 {
+    font-family: "Souvenir";
+}
+
+h5 {
     font-family: "Souvenir";
 }
 
@@ -189,6 +206,9 @@ ul {
 #boutonID {
     margin-top: 10%;
 }
+
+.carousel-caption {background-color: black;
+                    opacity: 0.5;}
 
 /*form*/
 .form {
