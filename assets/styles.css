@@ -337,4 +337,5 @@ footer {
         flex-direction: column;
         margin-left: 0;
     }
+    h1 {font-size: 100px;}
 }
