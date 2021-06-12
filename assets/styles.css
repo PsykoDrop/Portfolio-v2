@@ -4,7 +4,7 @@
 }
 
 
-/*codePen*/
+/*jumbotron*/
   #textField {display: none;}
   
   input{
@@ -125,12 +125,15 @@ nav {font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
 
+.more {
+    margin-bottom: 10%;}
+
 /*compétences*/
 
 
 #gradient {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .skills {
@@ -148,14 +151,29 @@ nav {font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
     border: 1px solid #ffffff2e;
     width: 80%;
-    height: 60%;
-}
+    height: 80%;}
+
+
+/*boutonAnimé*/
 
 #bouton {
-    width: 40%;
-
+    width: 30%;
+    -webkit-animation: spin 5s linear infinite;
+    -moz-animation: spin 5s linear infinite;
+    animation : spin 5s linear infinite;
 
 }
+
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+
 
 ul {
     list-style: none;
@@ -248,4 +266,12 @@ footer {
 #boutonPDF {
     margin-bottom: 10%;
     margin-top: 10%;
+}
+
+/*mediaqueries*/
+
+@media screen and (max-width: 992px){
+    .card{
+        flex-direction: column;
+        height: fit-content;}
 }
