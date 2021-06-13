@@ -9,7 +9,9 @@
     Web il y a maintenant 3 ans.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Bootstrap-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/styles.css">
@@ -20,8 +22,8 @@
 
 </head>
 
-<body>
-   <!--Navbar--> 
+<body class="light">
+    <!--Navbar-->
 
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
         <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
@@ -29,7 +31,7 @@
         </button>
         <div class="navbar-collapse collapse" id="collapse_target">
             <a class="navbar-brand" href="#jumbotron"><img class="img-fluid" src="assets/png/logo.png" id="logo"></a>
-        <ul class="navbar-nav">
+            <ul class="navbar-nav">
                 <li class="nav-item nav">
                     <a class="nav-link" href="#moi">A Propos</a>
                 </li>
@@ -45,17 +47,18 @@
                 <li class="nav-item nav">
                     <a class="nav-link" href="#form">Me contacter</a>
                 </li>
-        </ul>
-    </div>
+
+            </ul>
+        </div>
     </nav>
 
-    <div class="jumbotron style="margin-bottom: 0px;" id="jumbotron">
+    <div class="jumbotron style=" margin-bottom: 0px;" id="jumbotron">
         <div class="row" id="bienvenue">
 
-            <input type="text" id="textField" value="Bienvenue sur mon Portfolio"/>
+            <input type="text" id="textField" value="Bienvenue sur mon Portfolio" />
             <h1 id="animated"></h1>
 
-    </div>
+        </div>
     </div>
 
 
@@ -63,7 +66,7 @@
 
     <!--A Propos-->
     <section class="about fadeIn" id="aPropos">
-        
+
         <h2>A Propos</h2>
         <div class="container-fluid">
             <div class="row">
@@ -77,15 +80,15 @@
                         Bienvenue sur mon Portfolio où vous pourrez consulter mon travail et mon évolution.
                     </p>
 
-                    
+
                 </div>
+            </div>
+            <div class="row">
+                <div class="d-flex justify-content-center more">
+                    <a href="#"><button class="btn btn-dark" id="boutonID" type="link">En savoir Plus</button></a>
                 </div>
-                <div class="row">
-                    <div class="d-flex justify-content-center more">
-                        <a href="#"><button class="btn btn-dark" id="boutonID" type="link">En savoir Plus</button></a>
-                    </div>
-                </div>
-              
+            </div>
+
     </section>
     <!--competences-->
     <section class="skills fadeIn" id="skill">
@@ -175,35 +178,36 @@
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Mon Premier Wordpress</h5>
                                     <p>Premier site wordpress, site vitrine d'une savonnerie artisanale</p>
-                                  </div>
+                                </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="assets/img/brochure.jpg" class="d-block w-100" alt="Mockup ID Graphique">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Mockup Brochure</h5>
                                     <p>Brochure de mon identité Visuelle</p>
-                                  </div>
+                                </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="assets/img/coquelicot.jpg" class="d-block w-100" alt="Première Intégration">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Premiere Integration</h5>
-                                    <p>Première Intégration, j'étais chef de projet nous avons réalisé le site vitrine d'un fleuriste</p>
-                                  </div>
+                                    <p>Première Intégration, j'étais chef de projet nous avons réalisé le site vitrine
+                                        d'un fleuriste</p>
+                                </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="assets/img/emma.JPG" class="d-block w-100" alt="Projet Refonte Emma's Cake">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>2eme Projet</h5>
                                     <p>2eme projet réalisé à LA MANU, la refonte d'un site de patisserie</p>
-                                  </div>
+                                </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="assets/img/shifumi.JPG" class="d-block w-100" alt="Projet Shifumi">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Integration jeu en HTML</h5>
                                     <p>3eme projet à LA MANU, intégrer un jeu de Shifumi en html</p>
-                                  </div>
+                                </div>
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -258,11 +262,6 @@
                 <div class="col-lg-6 d-flex justify-content-end">
                     <img src="assets/png/cloud.png" id="cloud" alt="illustration">
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="d-flex justify-content-center">
-                <img id="gradient" alt="gradient" src="assets/gif/gradient.gif">
             </div>
         </div>
     </section>

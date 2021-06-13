@@ -3,6 +3,9 @@
     src: url(../assets/fonts/Souvenir_Greek_Demi_BT.ttf);
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
 
 /*fadeIn*/
 .fadeIn {
@@ -175,7 +178,7 @@ nav {
 }
 
 .skills {
-    background: linear-gradient(#B1F2FA, #B7FA9C);
+    background: linear-gradient(#c19ab7ff, #9c95dcff);
 }
 
 .strass {
@@ -190,6 +193,7 @@ nav {
     border: 1px solid #ffffff2e;
     width: 80%;
     height: 80%;
+    margin-left: 15px;
 }
 
 
@@ -246,12 +250,13 @@ ul {
 .form {
     margin-top: 10%;
     margin-bottom: 10%;
+    margin-left: 15px;
 }
 
 /*footer*/
 footer {
     padding-top: 5%;
-    background: linear-gradient(#B1F2FA, #B7FA9C);
+    background: linear-gradient(#c19ab7ff, #9c95dcff);
 }
 
 .socials {
@@ -331,6 +336,9 @@ footer {
     .card {
         flex-direction: column;
         height: fit-content;
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
     }
 
     .illustrations {
@@ -338,6 +346,21 @@ footer {
         margin-left: 0;
         width: 50%;
     }
-    h1 {font-size: 100px;}
-    #boho {width: 100%;}
+
+    h1 {
+        font-size: 100px;
+    }
+
+    #boho {
+        width: 100%;
+    }
+
+    body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #cloud {
+        width: 50%;
+    }
 }
