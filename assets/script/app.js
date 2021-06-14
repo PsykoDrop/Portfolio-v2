@@ -17,3 +17,5 @@ window.addEventListener('scroll', () => {
 window.addEventListener('resize', () => {
   spaceHolder.style.height = `${calcDynamicHeight(horizontal)}px`;
 });
+
+var screenWidth; 

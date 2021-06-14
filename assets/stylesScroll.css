@@ -153,9 +153,7 @@ nav {
 
 /*aPropos*/
 
-.about {
-    margin-top: 10%;
-}
+
 
 #moi {
     margin-top: 10%;
@@ -349,39 +347,6 @@ footer {
     }
 
     h1 {
-        font-size: 100px;
-    }
-
-    #boho {
-        width: 100%;
-    }
-
-    body {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    #cloud {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .card {
-        flex-direction: column;
-        height: fit-content;
-        width: 100%;
-        padding: 0%;
-        margin: 0%;
-    }
-
-    .illustrations {
-        flex-direction: column;
-        margin-left: 0;
-        width: 50%;
-    }
-
-    h1 {
         font-size: 80px;
     }
 
@@ -397,69 +362,89 @@ footer {
     #cloud {
         width: 50%;
     }
+
 }
 
 /*scroll*/
 
-#coffee {width: 60%;}
+#coffee {
+    width: 60%;
+}
 
-#couple {width: 100%;}
+#couple {
+    width: 100%;
+}
 
-#portrait {width: 90%;}
+#cute {
+    width: 100%;
+    height: 85%;
+}
 
-#bd {width: 90%;}
+#portrait {
+    width: 90%;
+}
 
-#water {width: 50%;}
+#bd {
+    width: 90%;
+}
 
-.couple {margin: 50px;
-        text-align: center;}
+#water {
+    width: 50%;
+}
 
-*, *::before, *::after {
+.couple {
+    margin: 50px;
+    text-align: center;
+}
+
+*,
+*::before,
+*::after {
     box-sizing: inherit;
-  }
-  
-  html {
+}
+
+html {
     box-sizing: border-box;
     font-size: 100%;
-  }
-  
-  body {
+}
+
+body {
     margin: 0;
     font-family: sans-serif;
-  }
-  
-  .bumper {
+}
+
+.bumper {
     text-align: center;
     padding: 128px 16px;
     background-color: #efefef;
-  }
-  
-  .container {
+}
+
+.container {
     position: relative;
     width: 100%;
     min-height: 100vh;
-  }
-  
-  .space-holder {
+}
+
+.space-holder {
     position: relative;
     width: 100%;
-  }
-  
-  .sticky {
+}
+
+.sticky {
     position: sticky;
     top: 0;
     height: 100vh;
     width: 100%;
     overflow-x: hidden;
-  }
-  
-  .horizontal {
+}
+
+.horizontal {
     position: absolute;
     height: 100%;
     will-change: transform;
-  }
-  
-  .cards {
+}
+
+.cards {
     position: relative;
     height: 100%;
     padding: 0 0 0 150px;
@@ -467,14 +452,13 @@ footer {
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
-  }
-  
-  .sample-card {
+}
+
+.sample-card {
     position: relative;
     height: 80vh;
     width: 100vw;
-    background-color: #dad6c5;
+    background-color: white;
     margin-right: 75px;
     flex-shrink: 0;
-  }
-
+}
