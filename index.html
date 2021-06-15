@@ -30,7 +30,8 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse collapse" id="collapse_target">
-            <a class="navbar-brand" href="#jumbotron"><img class="img-fluid" src="assets/png/logo.png" id="logo" alt="Logo"></a>
+            <a class="navbar-brand" href="#jumbotron"><img class="img-fluid" src="assets/png/logo.png" id="logo"
+                    alt="Logo"></a>
             <ul class="navbar-nav">
                 <li class="nav-item nav">
                     <a class="nav-link" href="about.html">A Propos</a>
@@ -39,7 +40,7 @@
                     <a class="nav-link" href="#skill">Compétences</a>
                 </li>
                 <li class="nav-item nav">
-                    <a class="nav-link" href="#carousel">Réalisations</a>
+                    <a class="nav-link" href="#mosaic">Réalisations</a>
                 </li>
                 <li class="nav-item nav">
                     <a class="nav-link" href="indexId.html">Mon identité Visuelle</a>
@@ -75,7 +76,8 @@
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center aPropos">
                     <p>Je m'appelle Ambre et je suis actuellement en Formation dans le Web Design,
-                        Passionnée d'art depuis des années, notamment les arts graphiques, je me suis intéréssée au numérique et en particulier le
+                        Passionnée d'art depuis des années, notamment les arts graphiques, je me suis intéréssée au
+                        numérique et en particulier le
                         Web il y a maintenant 3 ans.
                         Bienvenue sur mon Portfolio où vous pourrez consulter mon travail et mon évolution.
                     </p>
@@ -85,7 +87,8 @@
             </div>
             <div class="row">
                 <div class="d-flex justify-content-center more">
-                    <a href="about.html"><button class="btn btn-dark" id="boutonID" type="link">En savoir Plus</button></a>
+                    <a href="about.html"><button class="btn btn-dark" id="boutonID" type="link">En savoir
+                            Plus</button></a>
                 </div>
             </div>
 
@@ -153,80 +156,191 @@
         </div>
     </section>
 
-    <!--carroussel-->
+
+    <!--Mosaique-->
 
 
-    <section class="carroussel fadeIn">
-        <div class="row titreReal">
-            <h2>Realisations</h2>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div id="carousel" class="carousel slide" data-ride="carousel ">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselnosbasic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselnosbasic" data-slide-to="1"></li>
-                        <li data-target="#carouselnosbasic" data-slide-to="2"></li>
-                        <li data-target="#carouselnosbasic" data-slide-to="3"></li>
-                        <li data-target="#carouselnosbasic" data-slide-to="4"></li>
-                        <li data-target="#carouselnosbasic" data-slide-to="5"></li>
-                    </ol>
-                    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="assets/img/aura.jpg" class="d-block w-100" alt="Premier Wordpress">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Mon Premier Wordpress</h5>
-                                    <p>Premier site wordpress, site vitrine d'une savonnerie artisanale</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/img/brochure.jpg" class="d-block w-100" alt="Mockup ID Graphique">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Mockup Brochure</h5>
-                                    <p>Brochure de mon identité Visuelle</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/img/coquelicot.jpg" class="d-block w-100" alt="Première Intégration">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Premiere Integration</h5>
-                                    <p>Première Intégration, j'étais chef de projet nous avons réalisé le site vitrine
-                                        d'un fleuriste</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/img/emma.JPG" class="d-block w-100" alt="Projet Refonte Emma's Cake">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>2eme Projet</h5>
-                                    <p>2eme projet réalisé à LA MANU, la refonte d'un site de patisserie</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/img/shifumi.JPG" class="d-block w-100" alt="Projet Shifumi">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Integration jeu en HTML</h5>
-                                    <p>3eme projet à LA MANU, intégrer un jeu de Shifumi en html</p>
-                                </div>
-                            </div>
+    <section class="mosaique" id="mosaic">
+        <div class="row">
+            <div class="col-lg-4">
+                <a type="button" data-toggle="modal" data-target="#wpModal">
+                    <img src="assets/img/aura.jpg" class="zoom" alt="Projet Wordpress">
+                </a>
+            </div>
+
+            <div class="modal position-fixed text-center" id="wpModal" tabindex="1" role="dialog"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog " role="document">
+                    <div class="modal-content ">
+
+                        <div class="modal-header ">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
                         </div>
-                        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Précédent</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Suivant</span>
-                        </a>
+
+                        <div class="modal-body">
+                            <h5>Projet Wordpress</h5>
+                            <p>Premier Projet sur wordpress, réaliser le site vitrine d'un artisan de notre choix.
+                                J'ai choisi une savonnerie artisanale, j'ai créé un logo et mis en page le site.
+                            </p>
+                            <img src="assets/png/aurab.png" id="aura" alt="logo savonnerie">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-2">
-                    <a href="indexId.html"><button class="btn btn-dark" id="boutonID" type="link">Mon identité
-                            Visuelle</button></a>
+            <div class="col-lg-4">
+                <a type="button" data-toggle="modal" data-target="#brochure">
+                    <img src="assets/img/brochure.jpg" class="zoom" alt="Brochure">
+                </a>
+            </div>
+            <div class="modal position-fixed text-center" id="brochure" tabindex="1" role="dialog"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog " role="document">
+                    <div class="modal-content ">
+
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+                            <h5>Mockup de mon identite visuelle</h5>
+                            <p>
+                                Après avoir créé mon logo et mes illustrations pour mon identité Visuelle,
+                                j'ai réalisé plusieurs mockups dont cette brochure
+                            </p>
+                            <img src="assets/img/card.jpg" id="visite" alt="mockup Carte de visite">
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="col-lg-4">
+                <a type="button" data-toggle="modal" data-target="#coquelicot">
+                    <img src="assets/img/coquelicot.jpg" class="zoom" alt="Projet Coquelicot">
+                </a>
+            </div>
+            <div class="modal position-fixed text-center" id="coquelicot" tabindex="1" role="dialog"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog " role="document">
+                    <div class="modal-content ">
+
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+                            <h5>Premiere Integration</h5>
+                            <p>
+                                Mon premier projet à la manu et ma première intégration, j'étais SCRUM Master du projet.
+                                <a href="https://psykodrop.github.io/projetcoquelicot/" data-="_blank">Le site</a>
+                            </p>
+                            <img src="assets/img/maquetteCoquelicot.JPG" id="maquette" alt="Maquette adobe XD">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <a type="button" data-toggle="modal" data-target="#cake">
+                    <img src="assets/img/emma.JPG" class="zoom" alt="Projet Emma's Cake">
+                </a>
+            </div>
+            <div class="modal position-fixed text-center" id="cake" tabindex="1" role="dialog"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog " role="document">
+                    <div class="modal-content ">
+
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+                            <h5>Premiere utilisation de Bootstrap</h5>
+                            <p>
+                                Refonte d'un site de Pâtisserie à l'aide du framework Bootsrap.
+                                <a href="https://glesska.github.io/emmascake/">Le site</a>
+                            </p>
+
+                            <img src="assets/img/sparkles.jpg" id="sparkle" alt="Bannière emma's cake">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <a type="button" data-toggle="modal" data-target="#shifumi">
+                    <img src="assets/img/shifumi.JPG" class="zoom" alt="Projet Shifumi">
+                </a>
+            </div>
+            <div class="modal position-fixed text-center" id="shifumi" tabindex="1" role="dialog"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog " role="document">
+                    <div class="modal-content ">
+
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+                            <h5>Integration jeu de Shifumi en html</h5>
+                            <p>
+                                Nous avons intégré un shifumi avec un système de Drag & Drop sur un thème Japonais "wtf"
+                                J'ai également créé le logo.
+                                <a href=" https://elodie2812.github.io/Shifumi/index.html">Le site</a>
+                            </p>
+
+
+                            <img src="assets/img/accueil.JPG" id="accueilShifumi" alt="Shifumi Accueil">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <a type="button" data-toggle="modal" data-target="#shape">
+                    <img src="assets/img/snake.jpg" class="zoom" alt="Illustration Snake">
+                </a>
+            </div>
+            <div class="modal position-fixed text-center" id="shape" tabindex="1" role="dialog"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog " role="document">
+                    <div class="modal-content ">
+
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+                            <h5>Illustration</h5>
+                            <p>
+                                J'ai fais cette illustration sur Adobe Illustrator pour promouvoir mon site sur
+                                Instagram.
+                            </p>
+                            <img src="assets/img/insta.jpg" id="capture" alt="Mon compte instagram">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="d-flex justify-content-center more">
+                <a href="indexId.html">
+                    <button class="btn btn-dark" id="boutonID" type="link">
+                        Mon identité Visuelle
+                    </button>
+                </a>
+            </div>
+        </div>
     </section>
 
     <!--Formulaire-->
@@ -237,7 +351,8 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-8 text-center" id="form">
-                    <a href="mailto:ambre.legay.pro@gmail.com"><img src="assets/png/cloud.png" id="cloud" alt="illustration"></a>
+                    <a href="mailto:ambre.legay.pro@gmail.com"><img src="assets/png/cloud.png" id="cloud"
+                            alt="illustration"></a>
                 </div>
             </div>
         </div>

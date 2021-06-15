@@ -231,25 +231,47 @@ ul {
     list-style: none;
 }
 
-/*carroussel*/
 
-.titreReal {
-    padding-top: 10%;
-    text-align: center;
+/*mosaique*/
+
+.mosaique {
+    margin-top: 10%;
+    margin-left: 30px;
+}
+
+
+.zoom {
+    width: 500px;
+    height: 300px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.zoom:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 #boutonID {
-    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-top: 5%;
 }
 
-.carousel-caption {
-    background-color: black;
-    opacity: 0.5;
-}
+#visite {width: 100%;}
+
+#sparkle {width: 100%;}
+
+#accueilShifumi {width: 100%;}
+
+#capture {width: 100%;}
+
+
 
 /*form*/
 .form {
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 10%;
     margin-left: 15px;
 }
@@ -365,6 +387,8 @@ footer {
     #cloud {
         width: 50%;
     }
+    .mosaique {display: flex;
+        flex-direction: column;
+        margin: 15px;}
+    .zoom {width: 100%;}
 }
-
-
