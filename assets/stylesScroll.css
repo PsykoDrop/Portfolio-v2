@@ -329,41 +329,6 @@ footer {
     margin-top: 10%;
 }
 
-/*mediaqueries*/
-
-@media screen and (max-width: 992px) {
-    .card {
-        flex-direction: column;
-        height: fit-content;
-        width: 100%;
-        padding: 0%;
-        margin: 0%;
-    }
-
-    .illustrations {
-        flex-direction: column;
-        margin-left: 0;
-        width: 50%;
-    }
-
-    h1 {
-        font-size: 80px;
-    }
-
-    #boho {
-        width: 100%;
-    }
-
-    body {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    #cloud {
-        width: 50%;
-    }
-
-}
 
 /*scroll*/
 
@@ -464,12 +429,66 @@ body {
 }
 
 .zoom {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
+
 .zoom:hover {
-	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.phone {
+    display: none;
+}
+
+/*mediaQueries*/
+
+@media screen and (max-width: 992px) {
+    .card {
+        flex-direction: column;
+        height: fit-content;
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .illustrations {
+        flex-direction: column;
+        margin-left: 0;
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+
+    #boho {
+        width: 100%;
+    }
+
+    body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #cloud {
+        width: 50%;
+    }
+
+    h2 {
+        display: none;
+    }
+
+    .container {
+        display: none;
+    }
+
+    .phone {
+        display: block;
+    }
+
+
 }
