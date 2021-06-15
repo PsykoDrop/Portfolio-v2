@@ -24,7 +24,7 @@ function updateText(text){
         updateText(event.target.value);
     })
     
-    updateText("Le site est en travaux");
+    updateText("Bienvenue sur mon Portfolio");
 
 
 
