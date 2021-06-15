@@ -241,17 +241,12 @@ ul {
 
 
 .zoom {
-    width: 500px;
+    width: 100%;
     height: 300px;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
 }
 
 .zoom:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    opacity: 0.5;
 }
 
 #boutonID {
@@ -259,13 +254,21 @@ ul {
     margin-top: 5%;
 }
 
-#visite {width: 100%;}
+#visite {
+    width: 100%;
+}
 
-#sparkle {width: 100%;}
+#sparkle {
+    width: 100%;
+}
 
-#accueilShifumi {width: 100%;}
+#accueilShifumi {
+    width: 100%;
+}
 
-#capture {width: 100%;}
+#capture {
+    width: 100%;
+}
 
 
 
@@ -387,8 +390,15 @@ footer {
     #cloud {
         width: 50%;
     }
-    .mosaique {display: flex;
+
+    .mosaique {
+        display: flex;
         flex-direction: column;
-        margin: 15px;}
-    .zoom {width: 100%;}
+        margin: 15px;
+    }
+
+    .zoom {
+        width: 100%;
+        height: 50%;
+    }
 }
