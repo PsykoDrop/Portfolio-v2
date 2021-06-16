@@ -375,7 +375,10 @@ footer {
 
     h1 {
         font-size: 80px;
+        text-align: center;
     }
+
+    #animated {font-size: 80px;}
 
     #boho {
         width: 100%;
@@ -402,11 +405,18 @@ footer {
     }
 }
 
-@media screen and (max-width: 2500px) {
+@media screen and (width: 1920px) {
 
 
 
     h1 {
         font-size: 150px;
     }
+    #illus {width: 70%;
+            flex-direction: column;
+    }
+    #cloud {margin-left: 0%;}
+    p {font-size: 50px;
+    }
+    img {width: 100%;}
 }
