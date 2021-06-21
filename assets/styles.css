@@ -234,6 +234,7 @@ ul {
 
 .bouncing {
     animation: bounce 0.7s ease infinite alternate;
+    margin-top: 20px;
 }
 
 @-moz-keyframes bounce {
