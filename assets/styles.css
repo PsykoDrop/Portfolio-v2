@@ -230,6 +230,63 @@ ul {
     list-style: none;
 }
 
+/*boucing*/
+
+.bouncing {
+    animation: bounce 0.7s ease infinite alternate;
+}
+
+@-moz-keyframes bounce {
+    from {
+        top: 106px;
+    }
+
+    50% {
+        top: 86px;
+    }
+
+    to {
+        top: 106px;
+    }
+}
+
+@-webkit-keyframes bounce {
+    from {
+        top: 106px;
+    }
+
+    50% {
+        top: 86px;
+    }
+
+    to {
+        top: 106px;
+    }
+}
+
+@keyframes bounce {
+    from {
+        top: 106px;
+    }
+
+    50% {
+        top: 86px;
+    }
+
+    to {
+        top: 106px;
+    }
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-20px);
+    }
+}
 
 /*mosaique*/
 
