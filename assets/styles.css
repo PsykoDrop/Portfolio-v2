@@ -198,6 +198,13 @@ nav {
 
 
 /*boutonAnimé*/
+#strassMenu:hover   
+{
+-webkit-animation: spin 0.5s linear;
+-moz-animation: spin 0.5s linear;
+animation: spin 0.5s linear;
+
+}
 
 #bouton {
     width: 30%;
@@ -491,6 +498,13 @@ footer {
     .marge {
         margin: 15px;
     }
+
+    .navbar-toggler-icon {
+        display: none;
+        
+    }
+
+    #strassMenu {width: 30px;}
 
 
 }

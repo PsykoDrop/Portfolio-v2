@@ -434,6 +434,32 @@ body {
     display: none;
 }
 
+#strassMenu:hover   
+{
+-webkit-animation: spin 0.5s linear;
+-moz-animation: spin 0.5s linear;
+animation: spin 0.5s linear;
+
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
 /*mediaQueries*/
 
 @media screen and (max-width: 992px) {
@@ -478,6 +504,15 @@ body {
 
     .phone {
         display: block;
+    }
+
+    .navbar-toggler-icon {
+        display: none;
+
+    }
+
+    #strassMenu {
+        width: 30px;
     }
 
 
